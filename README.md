@@ -1,6 +1,6 @@
 # A catalog of potential pitfalls in machine learning
 
-This curated collection of programs provides a hands-on exploration of the common pitfalls in machine learning using python. These semi-synthetic datasets are practical implementation of the findings in paper [1] and [2].  Although there are various types of errors that can occur in ML pipelines, we have focused on issues that can be identified and addressed through code-based analysis. A comprehensive knowledge of these issues are essential to build reliable and robust ML systems.
+This curated collection of programs provides a hands-on exploration of the common pitfalls in machine learning using python. These semi-synthetic datasets are practical implementation of the findings in papers [1] and [2].  Although there are various types of errors that can occur in ML pipelines, we have focused on issues that can be identified and addressed through code-based analysis. A comprehensive knowledge of these issues are essential to build reliable and robust ML systems.
 
 
  - PF_01 (No test) : Model trained and tested on the same data. This results in a misleading measure of model generalisability.      
@@ -26,7 +26,7 @@ This curated collection of programs provides a hands-on exploration of the commo
  
  
 ## Datasets
-The datasets are available in the folder Dataset .  
+ 
  - California Housing : https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html
  - Iris Dataset :https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html
  - SpamBase.data : https://archive.ics.uci.edu/dataset/94/spambase
@@ -57,5 +57,4 @@ The datasets are available in the folder Dataset .
 
 ## References 
 1. Lones, M.A.: Avoiding common machine learning pitfalls. Patterns 5(10) (2024) https://doi.org/10.1016/j.patter.2024.101046
-2. Kapoor, S., Cantrell, E.M., Peng, K., Pham, T.H., Bail, C.A., Gundersen, O.E.,Hofman, J.M., Hullman, J., Lones, M.A., Malik, M.M., Nanayakkara, P., Pol-
-drack, R.A., Raji, I.D., Roberts, M., Salganik, M.J., Serra-Garcia, M., Stewart,B.M., Vandewiele, G., Narayanan, A.: Reforms: Consensus-based recommendations for machine-learning-based science. Science Advances 10(18), 3452 (XXXX) https://doi.org/10.1126/sciadv.adk3452
+2. Kapoor, S., Cantrell, E.M., Peng, K., Pham, T.H., Bail, C.A., Gundersen, O.E.,Hofman, J.M., Hullman, J., Lones, M.A., Malik, M.M., Nanayakkara, P., Poldrack, R.A., Raji, I.D., Roberts, M., Salganik, M.J., Serra-Garcia, M., Stewart,B.M., Vandewiele, G., Narayanan, A.: Reforms: Consensus-based recommendations for machine-learning-based science. Science Advances 10(18), 3452 (2024) https://doi.org/10.1126/sciadv.adk3452
